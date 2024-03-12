@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonIcon When there is default name 1`] = `
+<View
+  style={
+    {
+      "paddingHorizontal": 12,
+    }
+  }
+>
+  <Text />
+</View>
+`;

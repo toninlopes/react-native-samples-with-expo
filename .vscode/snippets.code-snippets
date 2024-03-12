@@ -1,0 +1,24 @@
+{
+	"Snapshot Test Template for React": {
+		"prefix": "test-renderer-template",
+		"body": [
+			"import React from 'react';",
+			"import renderer from 'react-test-renderer';",
+			"",
+			"describe('${1:test suit description}', () => {",
+			"	${0}",
+			"});",
+		],
+		"description": "Snapshot Test Template for React with react-test-renderer"
+	},
+	"Snapshot Unit Test for React": {
+		"prefix": "test-renderer-snaptshot",
+		"body": [
+			"test('${1:test description}', () => {",
+			"	const ${2:element name} = renderer.create(${3:component}).toJSON();",
+			"	expect(${2:element}).toMatchSnapshot();",
+			"});"
+		],
+		"description": "Snapshot Unit Test for React with react-test-renderer"
+	}
+}

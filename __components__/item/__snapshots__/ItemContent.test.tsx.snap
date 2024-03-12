@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItemContent When there is title. 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 22,
+      }
+    }
+  >
+    Title
+  </Text>
+</View>
+`;

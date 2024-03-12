@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button When there are title and icon. 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "silver",
+      "borderRadius": 8,
+      "flexDirection": "row",
+      "height": 42,
+      "justifyContent": "center",
+      "opacity": 1,
+      "padding": 6,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "alignSelf": "center",
+        "fontSize": 18,
+      }
+    }
+  >
+    Title
+  </Text>
+  <View
+    style={
+      {
+        "paddingHorizontal": 12,
+      }
+    }
+  >
+    <Text />
+  </View>
+</View>
+`;
+
+exports[`Button When there is a title. 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "silver",
+      "borderRadius": 8,
+      "flexDirection": "row",
+      "height": 42,
+      "justifyContent": "center",
+      "opacity": 1,
+      "padding": 6,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "alignSelf": "center",
+        "fontSize": 18,
+      }
+    }
+  >
+    Title
+  </Text>
+</View>
+`;

@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItemRow When there are title and chevron. 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "paddingVertical": 20,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "fontSize": 22,
+        }
+      }
+    >
+      Title
+    </Text>
+  </View>
+  <View
+    style={{}}
+  >
+    <Text />
+  </View>
+</View>
+`;
+
+exports[`ItemRow When there is title as child. 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "paddingVertical": 20,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "fontSize": 22,
+        }
+      }
+    >
+      Title
+    </Text>
+  </View>
+</View>
+`;

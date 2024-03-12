@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Separator When there is color. 1`] = `
+<View
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      {
+        "borderColor": "black",
+        "borderStyle": "dashed",
+        "borderWidth": 0.8,
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Separator When there is style. 1`] = `
+<View
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      {
+        "borderColor": "silver",
+        "borderStyle": "solid",
+        "borderWidth": 0.8,
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Separator When there is style. 2`] = `
+<View
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      {
+        "borderColor": "silver",
+        "borderStyle": "dashed",
+        "borderWidth": 0.8,
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Separator When there is style. 3`] = `
+<View
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      {
+        "borderColor": "silver",
+        "borderStyle": "dotted",
+        "borderWidth": 0.8,
+      },
+    ]
+  }
+/>
+`;
